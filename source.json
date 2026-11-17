@@ -1,0 +1,61 @@
+{
+  "name": "Lamas",
+  "identifier": "one.lamas.source.all",
+  "subtitle": "Applis de Lamas Suite",
+  "iconURL": "https://courrier.lamas.one/ios/icon.png",
+  "apps": [
+    {
+      "name": "Courrier",
+      "bundleIdentifier": "one.lamas.courrier",
+      "developerName": "Lamas",
+      "localizedDescription": "Client mail Lamas (boîte iCloud, analyse par l’IA locale).",
+      "iconURL": "https://courrier.lamas.one/ios/icon.png",
+      "tintColor": "2f6fe4",
+      "versions": [
+        {
+          "version": "1.0.3",
+          "buildVersion": "3",
+          "date": "2026-11-17T12:28:56Z",
+          "size": 471871,
+          "downloadURL": "https://courrier.lamas.one/ios/LamasCourrier.ipa",
+          "localizedDescription": "Dates : compatible iOS 17",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Music",
+      "bundleIdentifier": "one.lamas.music",
+      "developerName": "Lamas",
+      "localizedDescription": "Lecteur Lamas Music.",
+      "iconURL": "https://github.com/AmakoYoko/music-ios/releases/download/latest/icon.png",
+      "tintColor": "fa233b",
+      "versions": [
+        {
+          "version": "1.0.14",
+          "buildVersion": "14",
+          "date": "2026-11-15T21:16:02Z",
+          "size": 1768909,
+          "downloadURL": "https://github.com/AmakoYoko/music-ios/releases/download/latest/LamasMusic.ipa",
+          "localizedDescription": "Source SideStore : droits et autorisations déclarés (la mise à jour était refusée)",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Music écoute quelques secondes pour reconnaître le titre qui passe."
+        }
+      }
+    }
+  ],
+  "news": []
+}

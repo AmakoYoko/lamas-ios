@@ -1,0 +1,16 @@
+name: merge
+on:
+  schedule: [{ cron: "*/30 * * * *" }]
+  workflow_dispatch:
+  push: { branches: [main], paths: [apps.txt, merge.sh] }
+permissions:
+  contents: write
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./merge.sh
+      - run: |
+          git diff --quiet source.json && exit 0
+          git -c user.name=lamas-bot -c user.email=cla@lamas.one commit -qam "source mise à jour" && git push

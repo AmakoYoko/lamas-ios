@@ -1,0 +1,3 @@
+# Une source SideStore par appli (source.json publiée par son propre dépôt) ; une ligne par appli.
+https://github.com/AmakoYoko/music-ios/releases/download/latest/source.json
+https://courrier.lamas.one/ios/source.json
