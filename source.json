@@ -13,12 +13,12 @@
       "tintColor": "2f6fe4",
       "versions": [
         {
-          "version": "1.0.3",
-          "buildVersion": "3",
-          "date": "2026-11-17T12:28:56Z",
-          "size": 471871,
+          "version": "1.0.4",
+          "buildVersion": "4",
+          "date": "2026-11-17T22:52:43Z",
+          "size": 639180,
           "downloadURL": "https://courrier.lamas.one/ios/LamasCourrier.ipa",
-          "localizedDescription": "Dates : compatible iOS 17",
+          "localizedDescription": "Style verre (onglets, cartes translucides, pastilles, bouton Écrire), onglet Aujourd'hui avec le point d'Hibou, lecture à bascule fiche / bulles avec réponse rapide",
           "minOSVersion": "17.0"
         }
       ],
