@@ -13,12 +13,12 @@
       "tintColor": "2f6fe4",
       "versions": [
         {
-          "version": "1.0.4",
-          "buildVersion": "4",
-          "date": "2026-11-17T22:52:43Z",
-          "size": 639180,
+          "version": "1.0.5",
+          "buildVersion": "5",
+          "date": "2026-11-18T12:11:34Z",
+          "size": 647275,
           "downloadURL": "https://courrier.lamas.one/ios/LamasCourrier.ipa",
-          "localizedDescription": "Style verre (onglets, cartes translucides, pastilles, bouton Écrire), onglet Aujourd'hui avec le point d'Hibou, lecture à bascule fiche / bulles avec réponse rapide",
+          "localizedDescription": "Rafraîchissement : plus de « cancelled » (tâche détachée, annulation ignorée) ; widget : groupe d'applis renommé par SideStore (ALTAppGroups), derniers mails même lus",
           "minOSVersion": "17.0"
         }
       ],
